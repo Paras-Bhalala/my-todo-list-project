@@ -1,3 +1,4 @@
+// Add function
 function getAndUpdate() {
     console.log("Updating List...");
     tit = document.getElementById('title').value;
@@ -15,7 +16,7 @@ function getAndUpdate() {
     }
     update();
 }
-
+// Update Function
 function update() {
     if (localStorage.getItem('itemsJson') == null) {
         itemJsonArray = [];
